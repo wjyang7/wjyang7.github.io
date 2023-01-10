@@ -89,7 +89,7 @@ input, select, textarea {
 	body {
 		background: #f5f7fa;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		color: #52575c;
 		line-height: 1.75em;
 		font-size: 14pt;
@@ -141,17 +141,23 @@ input, select, textarea {
 		transition: color 0.25s ease-in-out, border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px #62676c;
+		border-bottom: none;
 	}
+
+	    a:link,a:visited { 
+	    	color: #13AED4; /*超链接颜色*/ 
+ 			text-decoration:none;  /*超链接无下划线*/ 
+		}
 
 		a:hover {
 			color: #f35858;
 			border-bottom-color: rgba(255, 255, 255, 0);
+			text-decoration:underline;
 		}
 
 	strong, b {
 		font-weight: 400;
-		color: #42474c;
+		color: inherit;
 	}
 
 	em, i {
