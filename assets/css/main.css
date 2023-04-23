@@ -1784,6 +1784,7 @@ input, select, textarea {
 			float: left;
 			margin: 0 2em 2em 0;
 		}
+  
 
 		.image.centered {
 			display: block;
@@ -2442,6 +2443,31 @@ input, select, textarea {
 			}
 
 	}
+
+
+	#slideshow {
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+
+	#slideshow img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		transition: opacity 1s ease-in-out;
+	}
+
+	#slideshow img.active {
+		opacity: 1;
+	}
+  
+ 
+  
+
 
 /* Narrow */
 

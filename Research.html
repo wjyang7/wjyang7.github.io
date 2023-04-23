@@ -92,16 +92,48 @@
 										</p>
 
 										<p class="hangingindent2">
-                                        ◆ Example spectra of redshifted methanol absorption in W31C (<a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...658A.192Y/abstract" target="_blank">Yang et al. 2022</a>)
+                                        ◆ Spectra of redshifted methanol absorption in W31C (<a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...658A.192Y/abstract" target="_blank">Yang et al. 2022</a>)
                                         </p>
-                                        <a href="#" class="image featured"><img src="files/re_fig_abs/redshifted_spec_w31c_e.png" alt="" /></a>
+                                       
+                                       
+                                        <div class="carousel">
+                                        	<div id="carousel-container" style="height: 520px; width: 800px;">
+                                        		<div class="slides">
+                                        			<a class="image featured"><img id="slide" src="files/re_fig_abs/redshifted_spec_w31c_e.png" alt="" /></a>
+                                        		</div>
+                                        	</div>
+                                        </div>
+
+
+                                        <script>
+                                        	var images = ["files/re_fig_abs/redshifted_spec_w31c_e.png", "files/re_fig_abs/redshifted_spec_w31c_a.png", "files/re_fig_abs/redshifted_spec_w31c_k.png"];
+                                        	var currentIndex = 0;
+                                        	var slide = document.getElementById("slide");
+
+                                        	function changeImage() {
+                                        		currentIndex++;
+                                        		if (currentIndex >= images.length) {
+                                        			currentIndex = 0;
+                                        		}
+                                        		slide.src = images[currentIndex];
+                                        	}
+                                        	setInterval(changeImage, 2000); 
+                                        </script>
+                                        <p class="hangingindent2">
+                                        <a class="bordered-feature-image"><img id="slide"></img></a>
+                                        </p>
+                                        <!--    -->
+
+                                            
+
 
 
                                         <p class="hangingindent2">
                                         ◆ An example of a two-layer model result using the MCMC fitting for the 37.7 GHz CH3OH line in W31C (<a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...658A.192Y/abstract" target="_blank">Yang et al. 2022</a>)
                                         </p>
-                                        <a href="#" class="image featured"><img src="files/re_fig_abs/redshifted_mcmc.png" alt="" /></a>
+                                        <a class="image featured"><img src="files/re_fig_abs/redshifted_mcmc.png" alt="" /></a>
                                         <p>Notes -- Left: Posterior probability distributions of model free parameters for the 37.7 GHz CH3OH line. Right: Observed (blue) and modelled (red) spectra for the 37.7 GHz CH3OH transition. </p>
+
 
 
 									</article>
