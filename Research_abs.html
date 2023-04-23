@@ -46,7 +46,7 @@
 
 											<ul class="link-list">
 												<div style="position: relative;">
-													<div style="position:absolute; left:0px;  top:0px"><a href="Research.html"><h4><font color='#f35858'>◆ ATLASGAL: <br> 3-mm class I CH<sub>3</sub>OH masers</font> </h4></a></div>
+													<div style="position:absolute; left:0px;  top:0px"><a href="Research.html"><h4>◆ ATLASGAL: <br> 3-mm class I CH<sub>3</sub>OH masers</font> </h4></a></div>
 												</div>
 												<br>
 												<br>
@@ -57,7 +57,7 @@
 
 											<ul class="link-list">
 												<div style="position: relative;">
-													<div style="position:absolute; left:0px;  top:0px"><a href="Research.html"><h4>◆ Redshifted CH<sub>3</sub>OH absorption <br> &nbsp &nbsp tracing infall motions</font> </h4></a></div>
+													<div style="position:absolute; left:0px;  top:0px"><a href="Research.html"><h4><font color='#f35858'>◆ Redshifted CH<sub>3</sub>OH absorption <br> &nbsp &nbsp tracing infall motions</font> </h4></a></div>
 												</div>
 												<br>
 												<br>
@@ -93,77 +93,59 @@
 								<!-- Content -->
 									<article id="content">
 										<header>
-											<h2>ATLASGAL: 3-mm class I methanol masers in high-mass star formation regions</h2>
+											<h2>Redshifted methanol absorption tracing infall motions</h2>
 										</header>
 
-										<p>
-										We analyzed the 3-mm wavelength spectral line survey of 408 ATLASGAL clumps observed with the IRAM 30m-telescope, focusing on the class I methanol masers with frequencies near 84, 95 and 104.3 GHz. These ALTASGAL clumps cover a full evolutionary stage of high-mass star formation. This study aims to (1) to search for new class I methanol masers, (2) to statistically study the relationship between class I masers and shock tracers, (3) to compare the properties between class I masers and their host clumps, also as a function of their evolutionary stage and, (4) to constrain the physical conditions that excite multiple class I masers simultaneously.</p>
+										<p>Gravitational collapse is one of the most important processes in high-mass star formation. Compared with the classic blue-skewed profiles, red-shifted absorption against continuum emission is a more straightforward and reliable method to identify inward motions associated with high-mass young stellar objects. </p>
+
+										<p>We carried out observations of 37 and 16 methanol transitions towards two well-known collapsing dense clumps, W31C (G10.6-0.4) and W3(OH), using the Effelsberg-100 m, IRAM-30 m, and APEX-12 m telescopes. With the aid of bright continuum background and the over-cooling of methanol transitions which enhance the absorption lines’ detectability, a total of 14 and 11 detected methanol transitions showing red-shifted absorption features towards W31C and W3(OH), respectively. </p>
+
+										<p>The infall velocities fitted from a simple two-layer model agree with previous studies, suggesting that red-shifted methanol absorption is a reliable tracer of infall motions within high-mass star formation regions hosting bright HII regions. Our observations indicate the presence of large-scale inward motions, and the mass infall rates are roughly estimated to be ≳ 10<sup>-3</sup> M<sub>&#9737</sub> yr<sup>-1</sup> for both sources, which supports the global hierarchical collapse and clump-fed scenario.
+										</p>
 
 										<p class="hangingindent2">
-                                        ◆ We detected 54 (50 new) masers at 84 GHz, 100 (29 new) masers at 95 GHz, 4 (4 new) masers at 104.3 GHz which increases the known number from 5 to 9. <br>
+                                        ◆ Spectra of redshifted methanol absorption in W31C (<a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...658A.192Y/abstract" target="_blank">Yang et al. 2022</a>)
                                         </p>
-                                        <a class="image featured"><img src="files/re_fig_atlasgal/104maser.png" alt="" /></a>
-                                        <p>Notes -- Spectra of the 4 newly detected 104.3 GHz methanol maser sources.</p>
-
-
-                                        <p class="hangingindent2">
-                                        ◆ The properties of class I methanol masers are regulated by SiO traced shocks. <br>
-                                        </p>
-                                        <a class="image featured"><img src="files/re_fig_atlasgal/sio.png" alt="" /></a>
-
-
-
-
-                                        <p class="hangingindent2">
-                                        ◆ Investigate the ATLASGAL clump properties. <br>
-                                        </p>
-
-                                        <div class="carousel" id="carousel-2">
-                                        	<div class="slides" id="slide-2">
-                                        		<div id="carousel-container" style="width: 800px; height: 400px;">
-                                        			<a class="image featured"><img id="slide2" src="files/re_fig_atlasgal/atlasgal-cdf.png" alt="" /></a>
+                                       
+                                       
+                                        <div class="carousel">
+                                        	<div id="carousel-container" style="height: 520px; width: 800px;">
+                                        		<div class="slides">
+                                        			<a class="image featured"><img id="slide" src="files/re_fig_abs/redshifted_spec_w31c_e.png" alt="" /></a>
                                         		</div>
                                         	</div>
                                         </div>
 
-                                        <script>
-                                        	var atlasgal = ["files/re_fig_atlasgal/atlasgal-cdf.png", "files/re_fig_atlasgal/atlasgal-correlation.png"];
-                                        	var i = 0;
-                                        	var slide2 = document.getElementById("slide2");
 
-                                        	function atlasloop() {
-                                        		i++;
-                                        		if (i >= atlasgal.length) {
-                                        			i = 0;
+                                        <script>
+                                        	var images = ["files/re_fig_abs/redshifted_spec_w31c_e.png", "files/re_fig_abs/redshifted_spec_w31c_a.png", "files/re_fig_abs/redshifted_spec_w31c_k.png"];
+                                        	var currentIndex = 0;
+                                        	var slide = document.getElementById("slide");
+
+                                        	function changeImage() {
+                                        		currentIndex++;
+                                        		if (currentIndex >= images.length) {
+                                        			currentIndex = 0;
                                         		}
-                                        		slide2.src = atlasgal[i];
+                                        		slide.src = images[currentIndex];
                                         	}
-                                        	setInterval(atlasloop, 3000); 
+                                        	setInterval(changeImage, 2000); 
                                         </script>
                                         <p class="hangingindent2">
-                                        <a class="bordered-feature-image"><img id="slide2"></img></a>
+                                        <a class="bordered-feature-image"><img id="slide"></img></a>
                                         </p>
+                                        <!--    -->
 
-                                        
-                                       
+                                            
 
 
 
                                         <p class="hangingindent2">
-                                        ◆ The evolutionary stage of CH<sub>3</sub>OH masers. <br>
+                                        ◆ An example of a two-layer model result using the MCMC fitting for the 37.7 GHz CH3OH line in W31C (<a href="https://ui.adsabs.harvard.edu/abs/2022A%26A...658A.192Y/abstract" target="_blank">Yang et al. 2022</a>)
                                         </p>
-                                        <a class="image featured"><img src="files/re_fig_atlasgal/evo.png" alt="" /></a>
+                                        <a class="image featured"><img src="files/re_fig_abs/redshifted_mcmc.png" alt="" /></a>
+                                        <p>Notes -- Left: Posterior probability distributions of model free parameters for the 37.7 GHz CH3OH line. Right: Observed (blue) and modelled (red) spectra for the 37.7 GHz CH3OH transition. </p>
 
-
-                                        <p class="hangingindent2">
-                                        ◆ Using multiple class I masers to better constrain physical conditions <br>
-                                        </p>
-                                        <a class="image featured"><img src="files/re_fig_atlasgal/myradex.png" alt="" /></a>
-
-
-
-
-                                        
 
 
 									</article>
