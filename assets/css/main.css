@@ -2074,7 +2074,7 @@ input, select, textarea {
 		position: relative;
 		background: #fff;
 		overflow-x: hidden;
-		padding: 6em 0 6em 0;
+		padding: 4em 0 2em 0;
 	}
 
 	.image-wrapper {
@@ -2132,7 +2132,7 @@ input, select, textarea {
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
 		border-top: solid 1px #c2c7cc;
-		padding: 6em 0 6em 0;
+		padding: 6em 0 2em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
 	}
@@ -2399,10 +2399,11 @@ input, select, textarea {
 		position: relative;
 		z-index: 1;
 		text-align: center;
-		border-top: solid 1px #d2d7dc;
+		border-top: solid 0px #d2d7dc;
 		color: #a2a7ac;
-		padding-top: 4em;
-		margin-top: 6em;
+		padding-top: 0em;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 
 /* Normal */
