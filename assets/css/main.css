@@ -2114,7 +2114,7 @@ input, select, textarea {
 	}
 
 	.homepage #header-wrapper {
-		padding: 10em 0 6em 0;
+		padding: 8em 0 4em 0;
 		background-size: 128px 128px, 100% 100%, auto;
 	}
 
@@ -2125,7 +2125,7 @@ input, select, textarea {
 		background-position: top left, center center;
 		color: #fff;
 		text-align: center;
-		padding: 6em 0 6em 0;
+		padding: 3em 0 4em 0;
 	}
 
 	#footer-wrapper {
